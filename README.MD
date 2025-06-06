@@ -17,4 +17,4 @@ Um simulador de piano virtual interativo, desenvolvido com HTML, CSS e JavaScrip
 * **Som de Base (Opcional):** Ative ou desative uma base de som (bateria ou outro som de fundo) com um clique, para acompanhar suas improvisações. O som de base não interfere no volume do piano.
 * **Design Responsivo:** (Se o design for responsivo, caso contrário, remova esta linha ou adapte) Uma interface limpa e intuitiva.
 
-## 🚀 Como Usar
+
