@@ -8,10 +8,14 @@ body {
 }
 
 .container {
-  width: 780px;
+  width: 660px;
   border-radius: 20px;
   padding: 35px 40px;
   background-color: black;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 40px;
 }
 
 .container header {
@@ -19,6 +23,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 3px solid #cabfbf;
+  border-radius: 12px;
+  padding: 22px;
+  margin-bottom: 40px;
 }
 
 header h2 {
@@ -119,4 +127,32 @@ header .column span {
 
 .piano-keys .key.hide span {
   display: none;
+}
+
+.column.sound-base{
+  margin-left: 30px;
+}
+
+.sound-base button {
+  display: flex;
+  align-items: center;
+  background-color: #4b4b4b; /* Cor de fundo similar ao switch */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.19rem; /* Tamanho da fonte similar aos spans */
+  font-weight: 400;
+  transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+
+.sound-base button:hover {
+  background-color: #666; /* Escurece um pouco no hover */
+}
+
+/* Opcional: para o botão ficar 'ativo' quando o som estiver tocando */
+.sound-base button.active {
+  background-color: #008000; /* Verde quando tocando */
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
 }
